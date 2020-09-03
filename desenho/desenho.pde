@@ -23,7 +23,7 @@ void mouseClicked(){
 }
 
 void draw(){
-  if(mousePressed && mouseButton==LEFT){
+  if(mousePressed){
     stroke(255,255,255);
     line(oldX,oldY,mouseX,mouseY);
     oldX=mouseX;
